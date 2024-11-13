@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Обнуление отступов и шрифтов */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Стиль для body */
+body {
+  background-image: url(../img/tetrisimg.jpg); /* Указание на изображение */
+  background-size: cover; /* Покрытие всего экрана */
+  background-position: center center; /* Центрирование изображения */
+  background-repeat: no-repeat; /* Без повторов */
+  height: 100vh; /* Обеспечиваем, чтобы изображение занимало всю высоту экрана */
+  margin: 0;
+  color: white; /* Цвет текста для контента на фоне */
+}
+.main_teris{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  text-align: center;
+}
+/* Стиль для заголовка */
+h1 {
+  font-size: 48px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Тень для текста, чтобы он был лучше виден на фоне */
+}
+
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #a1a1a1;
+}
